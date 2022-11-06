@@ -1,0 +1,59 @@
+nav{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
+
+.nav-link-card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 0.5s ease;
+}
+
+
+.nav-link{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #02205c;
+    border-bottom: 5px solid #03befc;
+    transition: 0.5s ease;
+}
+
+.nav-link-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width:0px;
+    height: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: #02205c;  
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+
+.nav-link-card:hover > .nav-link-description{
+    width: 300px;
+    border-bottom: 3px solid #03befc;
+}
+
+.nav-link-card:hover > .nav-link{
+    background-color: #03befc;
+}
+
+.nav-link-card:hover{
+    cursor: pointer;
+}
+
+.cl-grey{
+    color: #303030;
+}
